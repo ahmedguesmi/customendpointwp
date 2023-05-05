@@ -1,0 +1,35 @@
+{
+  "name"        : "ahmedguesmi/customendpointwp",
+  "description" : "Simple Lib To Handle Creation of Custom Endpoints Or Rewrites in WordPress ",
+  "type"        : "library",
+  "license"     : "GPL-3.0-or-later",
+  "keywords"    : [
+	"wordpress",
+	"wordpress-plugin",
+	"wordpress-php-library",
+	"wordpress-development",
+	"wordpress-plugin-library",
+	"wordpress-plugin-development",
+	"wordpress-router",
+	"wordpress-plugin-addon",
+	"wordpress-endpoint",
+	"wordpress-library",
+	"wordpress-development-kit",
+	"wordpress-plugins",
+	"rewrites",
+	"php",
+	"customendpointwp",
+  ],
+  "authors"     : [
+	{
+	  "name"     : "ahmed guesmi",
+	  "role"     : "Developer"
+	}
+  ],
+  "require"     : { },
+  "autoload"    : {
+	"psr-4" : {
+	  "Ahmedguesmi\\WordPress\\" : "./src"
+	}
+  }
+}
